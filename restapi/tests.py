@@ -2,7 +2,7 @@
 from unittest import TestCase
 
 def sum_of_intg(a,b):
-    return 0
+    return a + b
 
 class TestSum(TestCase):
     def test_sum(self):
